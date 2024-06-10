@@ -86,7 +86,7 @@ export class DetalleComponent  implements OnInit {
         }
       );
   }
-  regresar(){
+  volver(){
     this.modalCtrl.dismiss();
   }
 

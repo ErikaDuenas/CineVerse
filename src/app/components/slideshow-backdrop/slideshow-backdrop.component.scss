@@ -1,10 +1,10 @@
-swiper-container {
-    swiper-slide {
-  
+.swiper-container {
+    .swiper-slide {
         img {
-            width: 20%;
+            width: 100%;
+            max-width: 50px; 
             border-radius: 80px;
             box-shadow: -1px 11px 13px -6px rgb(87, 86, 86);
         }
     }
-  }
+}

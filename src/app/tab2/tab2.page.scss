@@ -1,0 +1,86 @@
+ion-header {
+  --background: #1e1e1e; /* Color de fondo del encabezado */
+  color: #ffffff; /* Color del texto del encabezado */
+}
+
+ion-toolbar {
+  --background: #1e1e1e; /* Color de fondo de la barra de herramientas */
+  color: #ffffff; /* Color del texto */
+}
+
+ion-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+ion-searchbar {
+  margin: 10px 0;
+  --background: #2c2c2c; /* Fondo del buscador */
+  --placeholder-color: #bbbbbb; /* Color del placeholder */
+  --color: #ffffff; /* Color del texto */
+  border-radius: 8px;
+}
+
+ion-content {
+  --ion-background-color: #f4f4f4; /* Color de fondo general */
+  padding: 16px;
+}
+
+ion-grid {
+  margin-bottom: 20px; /* Espacio entre las secciones */
+}
+
+.text-center {
+  text-align: center;
+}
+
+ion-spinner {
+  --color: #1e1e1e; /* Color del spinner */
+}
+
+ion-list-header ion-label {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #1e1e1e;
+}
+
+ion-chip {
+  margin: 5px;
+  --background: #f0f0f0; /* Fondo del chip */
+  --color: #1e1e1e; /* Color del texto del chip */
+}
+
+ion-chip[outline] {
+  --background: transparent;
+  --color: #1e1e1e;
+  border-color: #1e1e1e;
+}
+
+ion-card {
+  margin: 10px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  --background: #ffffff; /* Fondo de la tarjeta */
+}
+
+ion-card img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+ion-card-header {
+  background-color: #f7f7f7;
+  border-bottom: 1px solid #dddddd;
+}
+
+ion-card-subtitle {
+  font-size: 0.9em;
+  color: #555555;
+}
+
+ion-card-content h2 {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #333333;
+}

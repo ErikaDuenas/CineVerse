@@ -1,0 +1,41 @@
+ion-content {
+  --ion-background-color: #e0e0e0; /* Color de fondo general */
+  padding: 20px;
+}
+
+ion-grid {
+  margin-bottom: 25px; /* Espacio entre las secciones */
+}
+
+h3 {
+  font-size: 1.7em;
+  font-weight: bold;
+  color: #222; /* Color del texto de los encabezados */
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+ion-row {
+  margin-bottom: 15px; /* Espacio entre las filas */
+}
+
+ion-col {
+  font-size: 1.3em;
+  font-weight: bold;
+  color: #444; /* Color del texto de los géneros */
+  text-align: center;
+}
+
+app-slideshow-poster {
+  display: block;
+  margin: 0 auto; /* Centra los componentes */
+  background-color: #ffffff; /* Fondo del componente */
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  padding: 15px;
+}
+
+app-slideshow-poster img {
+  border-radius: 8px; /* Bordes redondeados para las imágenes */
+}
+

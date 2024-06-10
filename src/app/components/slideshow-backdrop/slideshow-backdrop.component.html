@@ -1,0 +1,27 @@
+
+<swiper-container
+[spaceBetween]="20"
+[slidesPerView]="1.2"
+    [initialSlide]="1"
+    [centeredSlides]="true"
+    [autoplay]="true"
+
+[pagination]="{clickable: true, dynamicBullets: true}">
+
+  <swiper-slide *ngFor="let slide of peliculas">
+    <ion-card mode="ios" (click)="verDetalle(slide.id)">
+      <img [src]="slide.poster_path | imagen" class="slide-image" />
+
+      <ion-card-header>
+        <ion-card-subtitle>{{ slide.title }}</ion-card-subtitle>
+      </ion-card-header>
+
+      <!-- <ion-card-content>
+        {{ slide.desc }}
+      </ion-card-content> -->
+
+    </ion-card>
+
+  </swiper-slide>
+
+</swiper-container>

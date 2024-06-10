@@ -1,47 +1,46 @@
 <ion-header>
     <ion-toolbar color="primary">
       <ion-title>
-        <!-- Nombre de la aplicacion-->
+        <!-- Nombre de la aplicación -->
         CineVerse
       </ion-title>
-      <!-- Logo de la aplicacion-->
+      <!-- Logo de la aplicación -->
       <ion-buttons slot="start">
         <img src="assets/icon/logo.png" alt="Logo CineVerse" class="logo-app">
       </ion-buttons>
     </ion-toolbar>
   </ion-header>
-<ion-content [fullscreen]="true">
-
+  
+  <ion-content [fullscreen]="true" class="tab1-page">
+  
     <ion-grid fixed>
-        <ion-row>
-            <ion-col>
-                <h3 style="color: whitesmoke;">PELICULAS EN ESTRENO</h3>
-            </ion-col>
-        </ion-row>
+      <ion-row>
+        <ion-col>
+          <h3 style="color: whitesmoke;">PELÍCULAS EN ESTRENO</h3>
+        </ion-col>
+      </ion-row>
     </ion-grid>
-
-    <app-slideshow-backdrop [peliculas] = "peliculasRecientes" ></app-slideshow-backdrop>
-
+  
+    <app-slideshow-backdrop [peliculas]="peliculasRecientes"></app-slideshow-backdrop>
+  
     <ion-grid fixed>
-        <ion-row>
-            <ion-col>
-                <h3 style="color: #FF00FF;">PELICULAS EN CARTELERA</h3>
-            </ion-col>
-        </ion-row>
+      <ion-row>
+        <ion-col>
+          <h3 style="color: #FF00FF;">PELÍCULAS EN CARTELERA</h3>
+        </ion-col>
+      </ion-row>
     </ion-grid>
-
-    <app-slideshow-poster [peliculas] = "peliculasRecientes"></app-slideshow-poster>
-
+  
+    <app-slideshow-poster [peliculas]="peliculasRecientes"></app-slideshow-poster>
+  
     <ion-grid fixed>
-        <ion-row>
-            <ion-col>
-                <h3 style="color: #00f7ff;">PELICULAS RECOMENDADAS</h3>
-            </ion-col>
-        </ion-row>
+      <ion-row>
+        <ion-col>
+          <h3 style="color: #00f7ff;">PELÍCULAS RECOMENDADAS</h3>
+        </ion-col>
+      </ion-row>
     </ion-grid>
-
-    <app-slideshow-pares [peliculas] = "populares"
-                          (cargarMas)="cargarMas()"></app-slideshow-pares>
-
-
-</ion-content>
+  
+    <app-slideshow-pares [peliculas]="populares" (cargarMas)="cargarMas()"></app-slideshow-pares>
+  
+  </ion-content>

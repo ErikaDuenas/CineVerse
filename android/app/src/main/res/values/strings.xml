@@ -2,6 +2,6 @@
 <resources>
     <string name="app_name">CineVerse</string>
     <string name="title_activity_main">CineVerse</string>
-    <string name="package_name">io.ionic.starter</string>
-    <string name="custom_url_scheme">io.ionic.starter</string>
+    <string name="package_name">com.eduenas.CineVerse</string>
+    <string name="custom_url_scheme">com.eduenas.CineVerse</string>
 </resources>
